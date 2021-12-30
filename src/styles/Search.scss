@@ -1,0 +1,36 @@
+@import 'vars';
+
+.Search{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+}
+.Search__title {
+    font-family: 'Roboto', sans-serif;
+    color: var(--pink-dark);
+}
+
+.Search__input{
+    width: 200px;
+}
+
+.Search__input input{
+    width: 90%;
+    color: gray; 
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+.Search__input img{
+    width: 15px;
+}
+
+@media (max-width: 450px) {
+	.Search__input{
+        width: 150px;
+	}
+}
+
+

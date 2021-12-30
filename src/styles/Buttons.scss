@@ -1,0 +1,19 @@
+@import 'vars';
+
+.buttons{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.buttons__categories{
+    font-size: 11px;
+    margin-right: 30px;
+    border: none;
+    color: var(--blue-dark);
+    cursor: pointer;
+}
+.button__search{
+    border: none;
+}

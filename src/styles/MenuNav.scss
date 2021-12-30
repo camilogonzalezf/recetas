@@ -1,0 +1,46 @@
+@import 'vars';
+
+.menuNav{
+    display: flex;
+    height: 80px;
+}
+
+.menuNav-title{
+    width: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--organge);
+    margin-right: 30px;
+}
+
+.menuNav-menu ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center; 
+}
+
+.menuNav-menu ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    height: 35px;
+    width: 100%;
+    color: var(--white);
+    display: flex;
+    align-items: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-decoration: none; 
+}
+
+.nav-linkactivated {
+    border-bottom: 5px solid #EF4C00;
+    border-radius: 3px;
+}
+
+@media (max-width: 450px) {
+    .menuNav-menu ul{
+        display: none; 
+    }
+}
