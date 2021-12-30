@@ -14,7 +14,7 @@ const MenuNav = () => {
                 <ul>
                     <li><NavLink 
                     className={({ isActive }) => "nav-link" + (isActive ? "activated" : "")}
-                    to='/'> Home </NavLink></li>
+                    to='/recetas'> Home </NavLink></li>
 
                     <li><NavLink 
                     className={({ isActive }) => "nav-link" + (isActive ? "activated" : "")}
