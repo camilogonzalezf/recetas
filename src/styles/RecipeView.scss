@@ -36,3 +36,9 @@
 	font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
+
+@media (max-width: 550px) {
+    .recipeView__botones{
+        disply: none; 
+    }
+}
