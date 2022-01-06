@@ -2,15 +2,14 @@
 
 .Display {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 220px);
-	gap: 27px;
+	grid-template-columns: repeat(auto-fill, 190px);
+	gap: 62px;
 	place-content: justify;
 	margin: 30px 0 0 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
 	.Display {
-		grid-template-columns: repeat(auto-fill, 220px);
 		place-content: center;
 	}
 }

@@ -14,13 +14,13 @@ const MenuNav = () => {
                 <ul>
                     <li><NavLink 
                     className={({ isActive }) => "nav-link" + (isActive ? "activated" : "")}
-                    to='/recetas'> Home </NavLink></li>
+                    to='/'> Home </NavLink></li>
 
                     <li><NavLink 
                     className={({ isActive }) => "nav-link" + (isActive ? "activated" : "")}
                     to='/nosotros'> Nosotros </NavLink></li>
 
-                                        <li><NavLink 
+                    <li><NavLink 
                     className={({ isActive }) => "nav-link" + (isActive ? "activated" : "")}
                     to='/videos'> Videos </NavLink></li>
 

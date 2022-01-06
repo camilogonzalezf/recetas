@@ -17,7 +17,7 @@ const App = () => {
                 <Layout>
                 <Header />
                     <Routes>
-                        <Route  path= "/recetas/" element={<Home/>} />
+                        <Route  path= "/" element={<Home/>} />
                         <Route  path= "/recipe/:id" element={<RecipeView/>} />
                     </Routes>
                 </Layout>

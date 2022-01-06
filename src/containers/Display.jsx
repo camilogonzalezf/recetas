@@ -8,7 +8,7 @@ const Display = ({recipes}) => {
             <section className="main">
                 <div className="Display">
                     {recipes.map(recipe =>(
-                        <Recipe recipe = {recipe} key={recipe?.idMeal}/>
+                        <Recipe recipe = {recipe} key={recipe.idMeal}/>
                     ))}
                 </div>
             </section>
